@@ -6,6 +6,7 @@ class Solution:
             
             if j<len(chars) and chars[j]==chars[j-1]:
                 count+=1
+            
             else:
                 chars[i]=chars[j-1]
               

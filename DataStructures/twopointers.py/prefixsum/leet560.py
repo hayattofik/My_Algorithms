@@ -7,7 +7,7 @@ class Solution:
         
 
         for i in range(len(nums)):
-            sum+=nums[i]
+           
             if sum-k in prefixdic:
                 counter+=prefixdic[sum -k]
             if sum in prefixdic:
